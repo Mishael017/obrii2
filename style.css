@@ -77,10 +77,13 @@
     }
 }
 
-@media only screen and (max-width: 800px){
-
+@media only screen and (max-width: 1145px){
+    
+    .container{
+        margin-left: 10%;
+    }
     .article{
-         flex-direction: column;
+        flex-direction: column;
      }
     .article:nth-child(2n){
         flex-direction: column;
@@ -88,5 +91,27 @@
     .thumnail p{
         margin-left: 30%;
     }
+}
 
+@media only screen and (max-width: 830px){
+
+    
+    .thumnail p{
+        margin-left: 25%;
+    }
+    .text{
+        width: 500px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    
+    .thumnail p{
+        margin-left: 20%;
+    }
+    .text{
+        width: 400px;
+        font-size: 20px;
+    }
 }
