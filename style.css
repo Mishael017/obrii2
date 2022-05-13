@@ -21,7 +21,9 @@
 
 
 
-
+.thumnail .photo{
+    height: 289px;
+}
 .thumnail img{
     border-radius: 100%;
 }
@@ -121,15 +123,20 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .article{
+        margin-left: 3%;
+    }
     .text{
         width: 284px;
-        margin-left: 0;
     }
     .thumnail img{
         width: 65%;
     }
     .thumnail p{
-        margin-left: 4%;
+        margin-left: 9%;
         font-size: 18px;
+    }
+    .thumnail .photo{
+        height: 214px;
     }
 }
