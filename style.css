@@ -81,10 +81,12 @@
 
 @media only screen and (max-width: 1145px){
     
-    
+    .contanier{
+        margin-left: auto;
+        margin-right: auto;
+    }
     .article{
         flex-direction: column;
-        margin-left: 9%;
      }
     .article:nth-child(2n){
         flex-direction: column;
