@@ -128,13 +128,9 @@
     .article{
         margin-left: 3%;
     }
-    /*
+  
     .text{
         width: 284px;
-    }
-    */
-    .text{
-        margin-left: 0;
     }
     .thumnail img{
         width: 65%;
@@ -143,9 +139,8 @@
         margin-left: 9%;
         font-size: 18px;
     }
-    /*
     .thumnail .photo{
         height: 214px;
     }
-    */
+   
 }
